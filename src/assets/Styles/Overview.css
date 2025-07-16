@@ -1,0 +1,89 @@
+.over-view-container{
+width: 95%;
+margin:70px auto; 
+}
+.over-view-navbar{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.message-date{
+    width: 30%;
+}
+.message-date h4{
+    font-size: 20px;
+}
+.message-date p{
+    margin-top: 10px;
+    color: gray;
+}
+.overview-search-bar{
+    width: 33%;
+    position: relative;
+}
+
+.overview-search-bar input{
+    padding: 17px 55px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+.search-icon {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size:52px; /* controls icon size */
+    padding: 13px 10px;
+    background-color: #D8F275;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+  
+
+  .notify-profile{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  .bell-icon{
+    font-size: 20px;
+  }
+  .notify-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+
+  @media(max-width:576px){
+
+    .message-date{
+        width: 100%;
+        text-align: center;
+
+    }
+    .over-view-container{
+        margin: 32px auto;
+    }
+    .overview-search-bar{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .search-icon{
+        right: 0px;
+    }
+.notify-profile{
+    width: 100%;
+    margin-top: 22px;
+    justify-content: center;
+}
+  }
+  @media(min-width:768px) and (max-width:992px){
+    .search-icon{
+        right: -76px;
+    }
+  }

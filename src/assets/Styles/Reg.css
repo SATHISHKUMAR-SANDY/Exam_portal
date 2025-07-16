@@ -1,0 +1,66 @@
+.reg-main-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  justify-content: flex-end; /* Align child to the right */
+  /* align-items: center;        Center vertically */
+}
+
+.reg-form-container {
+  width: 40%; /* Smaller width if needed */
+  margin-right: 40px; /* Some space from the right edge */
+  padding: 30px;
+  margin-top: 50px;
+}
+.reg-form-container h1 {
+  text-align: center;
+}
+.reg-form-container p{
+    text-align: center;
+    cursor: pointer;
+}
+.reg-form-container button{
+    padding: 15px 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D8F275;
+    font-weight: 700;
+    margin: 10px auto;
+    display: block;
+
+}
+.reg-first-input-group,
+.reg-second-input-group,
+.reg-third-input-group,
+.reg-fourth-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.reg-first-input-group label,
+.reg-second-input-group label,
+.reg-third-input-group label,
+.reg-fourth-input-group  label{
+margin-bottom: 5px;
+font-weight: 700;
+}
+.reg-first-input-group input,
+.reg-second-input-group input,
+.reg-third-input-group input,
+.reg-fourth-input-group input{
+padding: 10px 0px;
+border-radius: 10px;
+background-color: transparent;
+outline: none;
+border: solid 1px black;
+
+}
+.reg-first-input-group input,
+.reg-second-input-group input,
+.reg-third-input-group input,
+.reg-fourth-input-group input::placeholder{
+    padding-left: 10px;
+}
