@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import Img1 from  "../assets/Images/img1.png";
-import Img2 from  "../assets/Images/img2.png";
-import Img3 from  "../assets/Images/img3.png";
+import Img1 from  "../assets/Images/Img1.png";
+import Img2 from  "../assets/Images/Img2.png";
+import Img3 from  "../assets/Images/Img3.png";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const Trainee = () => {
