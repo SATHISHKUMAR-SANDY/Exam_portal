@@ -8,11 +8,6 @@ import { VscBellDot } from "react-icons/vsc";
 import my from "../assets/Images/my.jpg";
 import { FaCloudUploadAlt } from "react-icons/fa";
 
-// import profile1 from "../assets/Images/img 1.png";
-
-// import profile2 from "../assets/Images/img 2.png";
-
-// import profile3 from "../assets/Images/img 3.png";
 import Trainee from "../Components/Trainee";
 import Questionpaper from "../Components/Questionpaper";
 function Overview() {
