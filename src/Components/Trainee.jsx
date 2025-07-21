@@ -211,7 +211,7 @@ const Trainee = () => {
           <div className="rounded p-3 flex-grow-1 d-flex flex-column" style={{ backgroundColor: "#d8f275" }}>
             <div className="d-flex justify-content-between align-items-center mt-2 mb-5 px-2">
               <h5 className="fw-bold mb-0">Upcoming Exams</h5>
-              <button className="btn btn-dark btn-sm py-2 px-4 uploadbtn" onClick={() => navigate("/uploadpaper")}>
+              <button className="btn btn-dark btn-sm py-2 px-4 uploadbtn" onClick={() => navigate("/home/uploadpaper")}>
                 Upload New Exam
               </button>
             </div>

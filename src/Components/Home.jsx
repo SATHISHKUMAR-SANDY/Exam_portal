@@ -10,8 +10,9 @@ import { FaPencilRuler } from "react-icons/fa";
 import { MdDeveloperMode } from "react-icons/md";
 import { CgNotes } from "react-icons/cg";
 import { LuSearchCheck } from "react-icons/lu";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 export default function Home() {
+ const  navi = useNavigate()
   return (
     <div className="Home-container">
       <div className="sidebar-main-container">
@@ -24,20 +25,20 @@ export default function Home() {
 
         <nav className="side-nav">
           <ul className="side-nav-links">
-            <li className="nav-item">
+            <li className="nav-item"  onClick={()=>navi("/home")}>
               <img src={overview} className='nav-icon' />
               Overview
             </li>
-            <li  className="nav-item">
+            <li   className="nav-item" onClick={()=>navi("design")}>
             <FaPencilRuler className="nav-icon" />
               Designing</li>
             <li  className="nav-item">
             <MdDeveloperMode className="nav-icon" />
             Development</li>
-            <li  className="nav-item">
+            <li  className="nav-item" role="button" onClick={()=>navi("exam")} >
             <CgNotes  />
             Exam</li>
-            <li  className="nav-item">
+            <li  className="nav-item"  role="button" onClick={()=>navi("result")} >
             <LuSearchCheck className="nav-icon" />
             Result</li>
           </ul>

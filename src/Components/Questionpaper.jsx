@@ -32,7 +32,7 @@ const Questionpaper = () => {
 
   return (
     <div className="container my-4">
-      <h5 className="fw-bold mb-3">Upload Question Paper</h5>
+      <h5 className="fw-bold mb-3">Upload Question P1aper</h5>
       <div
         className="border-primary rounded text-center py-5 px-3"
         style={{
